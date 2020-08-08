@@ -4,6 +4,9 @@ phases:
   build:
     commands:
       - go build main.go
+  post_build:
+    commands:
+      - ls
 artifacts:
   files:
     - /*
