@@ -6,4 +6,4 @@ phases:
       - go build main.go
 artifacts:
   files:
-    - .
+    - /*
